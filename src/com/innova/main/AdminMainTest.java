@@ -19,6 +19,10 @@ public class AdminMainTest {
         //adminDto.setAdminID(4);
         //adminController.Update(adminDto);
 
+        //delete
+        //adminDto.setAdminID(4);
+        //adminController.Delete(adminDto);
+
         var list = adminController.List();
         for (var item : list) {
             System.out.println(item);

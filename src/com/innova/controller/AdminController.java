@@ -26,7 +26,8 @@ public class AdminController implements IDaoConnection<AdminDto> {
 
     @Override
     public void Delete(AdminDto adminDto) {
-
+        adminDao = new AdminDao();
+        adminDao.Delete(adminDto);
     }
 
     @Override
